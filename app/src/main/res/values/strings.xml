@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Java Todo</string>
+    <string name="add_item">Add item...</string>
+    <string name="item_placeholder">Item?</string>
+</resources>
