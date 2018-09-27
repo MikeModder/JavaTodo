@@ -32,20 +32,20 @@ public class TodoAdapter extends ArrayAdapter<Todo> {
             View convertViewB;
             convertViewB = LayoutInflater.from(ctx).inflate(R.layout.todo_row, parent, false);
             TextView tvText = convertViewB.findViewById(R.id.todoText);
-            CheckBox isDone = convertViewB.findViewById(R.id.isDone);
+            //CheckBox isDone = convertViewB.findViewById(R.id.isDone);
 
             tvText.setText(t.text);
-            isDone.setChecked(!t.done);
+            //isDone.setChecked(!t.done);
 
             return  convertViewB;
         }
 
         convertView = LayoutInflater.from(ctx).inflate(R.layout.todo_row, parent, false);
         TextView tvText = convertView.findViewById(R.id.todoText);
-        CheckBox isDone = convertView.findViewById(R.id.isDone);
+        //CheckBox isDone = convertView.findViewById(R.id.isDone);
 
         tvText.setText(t.text);
-        isDone.setChecked(!t.done);
+        //isDone.setChecked(!t.done);
 
         return  convertView;
     }
