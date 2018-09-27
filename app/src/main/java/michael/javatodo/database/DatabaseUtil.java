@@ -26,7 +26,7 @@ public class DatabaseUtil {
     public ArrayList<Todo> getTodos() {
         ArrayList<Todo> todos = new ArrayList<Todo>();
 
-        String[] fields = new String[2];
+        String[] fields = new String[3];
         fields[0] = "_id";
         fields[1] = "text";
         fields[2] = "done";
